@@ -1,7 +1,7 @@
 import React from 'react'
 import './styles.scss'
 
-const Button = ({text,onClick,outlined = false}) => {
+const Button = ({ text, onClick, outlined }) => {
   return (
     <div
       className={outlined ? "btn__outlined" :`btn__div`}
@@ -12,4 +12,4 @@ const Button = ({text,onClick,outlined = false}) => {
   )
 }
 
-export default Button
+export default Button;

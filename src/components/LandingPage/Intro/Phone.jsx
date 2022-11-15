@@ -3,6 +3,7 @@ import React from 'react'
 
 import gradient from '../../../assets/gradient.png'
 import iphone from '../../../assets/iphone.png'
+import './styles.scss'
 
 const Phone = () => {
   return (

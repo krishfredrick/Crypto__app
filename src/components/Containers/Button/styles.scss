@@ -1,0 +1,44 @@
+.btn__div{
+    width: min-content;
+    min-width: 65px;
+    padding: 0.5rem 1rem;
+    border-radius: 2rem;
+    
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.8rem;
+    text-align: center;
+    color:var(--white);
+
+    background-color: var(--blue);
+    cursor: pointer;
+
+}
+
+
+.btn__div:hover{
+    box-shadow: 5px 5px 10px rgba(58, 128, 233, 0.5);
+    transition: all 0.2s;
+}
+
+.btn__outlined{
+    width: min-content;
+    min-width: 65px;
+    border: 2px solid var(--blue);
+    padding: 0.5rem 1rem;
+    border-radius:2rem;
+
+    font-weight: 600;
+    font-size: 0.8rem;
+    color:var(--white);
+    text-transform: capitalize;
+    text-align: center;
+
+    cursor: pointer;
+}
+
+.btn__outlined{
+    background-color:var(--blue);
+
+    transition:all 0.3s;
+}

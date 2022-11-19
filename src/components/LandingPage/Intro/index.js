@@ -43,6 +43,7 @@ const LandingIntro = () => {
           tranistion={{ duration: 1, delay: 0.7 }}
           whileInView={{ x: 0, opacity: 1 }}
         >
+
           <Button text='Dashboard'/>
           <Button text='share' outlined={true} />
 

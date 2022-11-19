@@ -7,7 +7,7 @@ import './styles.scss'
 
 const Phone = () => {
   return (
-      <div className="Phone__box">
+      <div className="phone__box">
         <img src={gradient} alt="" className="phone__gradient" />
         <motion.img
             className='phone'

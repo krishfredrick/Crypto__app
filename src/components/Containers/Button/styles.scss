@@ -17,8 +17,11 @@
 
 
 .btn__div:hover{
+    background-color:var(--black);
+    border-color:var(--blue);
+
     box-shadow: 5px 5px 10px rgba(58, 128, 233, 0.5);
-    transition: all 0.2s;
+    transition: all  0.2s ;
 }
 
 .btn__outlined{
@@ -27,18 +30,23 @@
     border: 2px solid var(--blue);
     padding: 0.5rem 1rem;
     border-radius:2rem;
-
+    
     font-weight: 600;
     font-size: 0.8rem;
     color:var(--white);
     text-transform: capitalize;
     text-align: center;
-
+    
     cursor: pointer;
 }
 
 .btn__outlined{
-    background-color:var(--blue);
-
+    
     transition:all 0.3s;
+}
+
+.btn__outlined:hover{
+    box-shadow: 5px 5px 10px rgba(58, 128, 233, 0.5);
+    background-color: var(--blue);
+    // transition: all 1s ease-in-out 2s;
 }

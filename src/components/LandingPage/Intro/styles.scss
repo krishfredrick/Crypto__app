@@ -67,41 +67,52 @@
         margin-right: auto;
     }
 
-    .Li__heading-1, .Li__heading-2{
-        font-size: 4rem;
-        text-align: center;
-    }
-
-    .Li__para{
-        font-size: 0.8rem;
-        text-align: center;
-    }
-
+    
     .Li__wrapper{
+
         flex-direction: column;
+        align-items:center;
+        
+        .Li__heading-1, .Li__heading-2{
+            font-size: 4rem;
+            text-align: center;
+        }
+    
+        .Li__para{
+            font-size: 0.8rem;
+            text-align: center;
+        }
+        .Li__flexbtn{
+            display: flex;
+            justify-content: center !important;
+            align-items: center ;
+            gap:1.2rem;
+        }
     }
 
     .phone__box{
         margin-top: 3rem;        
         margin-left: auto;
         margin-right: auto;
+        .phone__info{
+            display:block;
+            margin-left:auto;
+            margin-right: auto;
+        }
+        .phone__gradient, .phone{
+            margin-left: auto;
+            margin-right: auto;
+        }
+    
+        .phone__gradient{
+            left: 1rem;
+        }
+    
+        .phone{
+            left: -1rem;
+        }
     }
-    .phone__gradient, .phone{
-        margin-left: auto;
-        margin-right: auto;
-    }
-
-    .phone__gradient{
-        left: 1rem;
-    }
-
-    .phone{
-        left: -1rem;
-    }
-    .Li__flexbtn{
-        display: flex;
-        justify-content: center;
-    }
+    
 }
 
 @media only screen and (max-width: 600px){

@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    // width: 100%;
     background-color: var(--black); //--> can change for theme
     z-index: 100;
     position: sticky;
@@ -31,6 +32,9 @@
             color: var(--white);
             transition: all 0.3s;
         }
+    }
+    .head__drawer{
+        display: block;
     }
 
 }
@@ -64,18 +68,21 @@
 }
 
 @media only screen and (max-width:800px) {
-    .drawer__div{
-        display:block;
-    }
     
 }
 
 @media only screen and (max-width:800px) {
-    .head__links{
-        display:none;
+    .drawer__div{
+        display:block;
     }
-    .head__heading{
-        font-size: 1rem;
+
+    .head__nav {
+        .head__links{
+            display:none;
+        }
+        .head__heading{
+            font-size: 1rem;
+        }
     }
 }
 

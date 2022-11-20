@@ -22,7 +22,7 @@ const Grid = ({ coin, delay}) => {
           </div>
       </div>
       <div>
-        {coin.price_change_percentage_24 > 0 ? (
+        {coin.price_change_percentage_24h > 0 ? (
             <div className="grid__chip-flex">
               <div className="grid__coin-chip">
                 {coin.price_change_percentage_24h.toFixed(2) + '%'}
@@ -41,9 +41,9 @@ const Grid = ({ coin, delay}) => {
       <p
         className="grid__coin-price"
         style={{
-          color:coin.price_change_percentage_24 < 0
+          color:coin.price_change_percentage_24h < 0
             ? 'var(--red)'
-            :"var(--greeen) "
+            :"var(--green) ",
         }}
       >
         ${coin.current_price.toLocaleString()}

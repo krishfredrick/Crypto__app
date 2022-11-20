@@ -1,0 +1,20 @@
+.tab__grid-flex{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    flex-wrap: wrap;
+    margin: 1rem 2rem;
+}
+
+.tab__list-flex{
+    width: 80%;
+    display: block;
+    margin: 1rem auto;
+}
+
+@media only screen and (max-width: 1000px){
+    .tab__list-flex{
+        width: auto;
+    }
+}

@@ -3,7 +3,7 @@ import React,{useState, useEffect} from 'react'
 
 import Header from '../components/Containers/Header';
 import Tabs from '../components/Dashboard/Tabs'
-import { DASHBOARD_API_URL } from "../constants";
+import { DASHBOARD_API_URL } from "../constants.js";
 
 
 const DashboardPage = () => {

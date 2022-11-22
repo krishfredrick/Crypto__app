@@ -9,7 +9,10 @@ const Header = () => {
       <div className="head__nav" 
       >
         <h1 className="head__heading">
-            CryptoTracker<span style={{color:'var(--orange) '}}></span>
+            <a href="/" style={{color:'white'}}>
+            CryptoTracker<span style={{color:'var(--blue) '}}>.</span>
+            </a>
+                
         </h1>
         <div className="head__links" >
             <a href="/">

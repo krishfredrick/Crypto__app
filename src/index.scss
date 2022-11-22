@@ -63,3 +63,33 @@ img {
 a {
   text-decoration: none;
 }
+
+.top-btn{
+  padding: 0.5rem;
+  height: 2rem;
+  width: 2rem;
+  background-color: var(--darkgrey);
+  border-radius: 50%;
+  display: none; 
+  justify-content:center;
+  align-items: center;
+  position: fixed;
+  right: 2rem;
+  bottom: 2rem;
+  border: 2px solid var(--blue);
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.grey-container{
+  width: 90%;
+  display: block; 
+  background-color: var(--darkgrey);
+  margin: 0.5rem auto;
+  padding: 1rem;
+  border-radius: 0.8rem;
+}
+
+// .dash__{
+//   height: 200vh;
+// }

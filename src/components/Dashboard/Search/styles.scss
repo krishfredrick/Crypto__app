@@ -1,0 +1,32 @@
+.search-box{
+    display: flex;
+    width: 90%;
+    margin: 1rem auto;
+    background-color: var(--darkgrey);
+    padding: 0.5rem 1rem;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--lightgrey);
+    gap: 0.5rem;
+    border-radius: 3rem ;
+    
+    input{
+        width: 100%;
+        background-color: var(--darkgrey);
+        color: var(--lightgrey);
+        font-family: "inter", sans-serif;
+        border: none;
+
+        &:focus{
+            outline: none;
+        }
+    }
+
+}
+
+
+@media only screen and (max-width: 800px){
+    .search-box{
+        width: 80%;
+    }
+}

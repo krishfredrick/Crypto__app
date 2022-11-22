@@ -9,7 +9,7 @@ import "./styles.scss";
 import List from "../ListComponent/";
 export default function Tabs({ data }) {
   const [tabValue, setTabValue] = useState("grid");
-
+  console.log(data,"uo")
   const handleChange = (event, newValue) => {
     setTabValue(newValue);
   };

@@ -1,0 +1,85 @@
+.li__{
+    display:flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    border-radius: 1rem;
+    cursor: pointer;
+
+    &:hover{
+        background-color: var(--darkgrey);
+    }
+
+    td{
+        text-align: left !important;
+        width: 18%;
+    }
+
+    .li__td-chip-flex{
+        min-width: 10rem;
+    }
+
+    .li__td-img{
+        width: 5rem !important;
+    }
+
+    .li__td-name-flex{
+        min-width: 100px;
+    }
+}
+
+@media only screen and (max-width: 900px){
+    .li__td-mkt-cap{
+        display:none;
+    }
+
+    .li__td-vol-cap{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 800px){
+    .li__{
+        padding: 0rem;
+        gap: 0.2rem;
+    }
+
+    .li__td-name-flex{
+        min-width: 0px
+    }
+
+    .li__td-chip-flex{
+        min-width: 0;
+    }
+
+    .chip-icon{
+        display: none !important;
+    }
+    
+    .li__td-img{
+        width: min-content !important;
+    }
+
+    .percentage-text{
+        font-size: 50%
+    }
+
+    .name-text, .li__td-vol-cap{
+        font-size: 70%;
+    }
+    
+    .li__td-img{
+        height: 2rem;
+        width: 2rem;
+    }
+    
+}
+@media only screen and (max-width: 600px){
+    .li__{
+        padding: 0.5rem;
+        margin: 0.5rem 0;
+        gap: 0.1rem;
+    }
+}

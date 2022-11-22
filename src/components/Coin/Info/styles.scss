@@ -1,0 +1,11 @@
+.info__desc-links {
+    a{
+        text-decoration: underline;
+        color: var(--white);
+
+        &:hover{
+            color: var(--blue) !important;
+            cursor: pointer;
+        }
+    }
+}

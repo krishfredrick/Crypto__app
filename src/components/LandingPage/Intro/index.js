@@ -12,7 +12,7 @@ const LandingIntro = () => {
       <div className="Li__info">
         <motion.h1
           className={"Li__heading-1"}
-          intial={{ y: 50, opacity: 0 }}
+          initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5 }}
         >
@@ -21,7 +21,7 @@ const LandingIntro = () => {
 
         <motion.h1
           className={"Li__heading-2"}
-          intial={{ y: 50, opacity: 0 }}
+          initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.5, delay: 0.25 }}
         >
@@ -30,9 +30,9 @@ const LandingIntro = () => {
 
         <motion.p
           className={"Li__para"}
-          initial={{ y: 50, opactiy: 0 }}
+          initial={{ y: 50, opacity: 0 }}
           whileInView={{ y: 0, opacity: 1 }}
-          transition={{ duaration: 0.5, delay: 0.5 }}
+          transition={{ duration: 0.5, delay: 0.5 }}
         >
           Track crypto through a public api in real time. Visit the dashboard to
           do so!
@@ -40,11 +40,12 @@ const LandingIntro = () => {
         <motion.div
           className="Li__flexbtn"
           initial={{ x: -5, opacity: 0 }}
-          tranistion={{ duration: 1, delay: 0.7 }}
           whileInView={{ x: 0, opacity: 1 }}
+          tranistion={{ duration: 1, delay: 0.75 }}
         >
-
-          <Button text='Dashboard'/>
+          <a href="/dashboard">
+            <Button text='Dashboard'/>
+          </a>
           <Button text='share' outlined={true} />
 
         </motion.div>

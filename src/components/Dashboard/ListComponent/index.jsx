@@ -30,14 +30,14 @@ const List = ({ coin , delay}) => {
       </td>
       <td className="li__td-chip-flex">
         {coin.price_change_percentage_24h > 0 ? (
-          <div className="grid__chip-flex">
+          <div className="grid__chip-flex chip-flex">
             <div className="grid__coin-chip percentage-text">
               {coin.price_change_percentage_24h.toFixed(2) + '%'}
             </div>
             <TrendingUpRoundedIcon className="li__icon  chip-icon"/>
           </div>
         ):(
-          <div className="grid__chip-flex">
+          <div className="grid__chip-flex chip-flex">
             <div className="grid__coin-chip percentage-text chip-red">
               {coin.price_change_percentage_24h.toFixed(2) + '%'}
             </div>

@@ -18,18 +18,20 @@
         width: 18%;
     }
 
-    .li__td-chip-flex{
-        min-width: 10rem;
-    }
+    // .li__td-chip-flex{
+    //     min-width: 10rem;
+    // }
 
     .li__td-img{
-        width: 5rem !important;
+        width: 2.8rem !important;
     }
 
     .li__td-name-flex{
-        min-width: 100px;
+        min-width: 60px;
     }
 }
+
+
 
 @media only screen and (max-width: 900px){
     .li__td-mkt-cap{
@@ -48,11 +50,14 @@
     }
 
     .li__td-name-flex{
-        min-width: 0px
+        min-width: 0px;
     }
 
     .li__td-chip-flex{
-        min-width: 0;
+        min-width: 0rem;
+    }
+    .chip-flex{
+        min-width: 0rem;
     }
 
     .chip-icon{
@@ -69,6 +74,7 @@
 
     .name-text, .li__td-vol-cap{
         font-size: 70%;
+        // width: 1.5rem;
     }
     
     .li__td-img{

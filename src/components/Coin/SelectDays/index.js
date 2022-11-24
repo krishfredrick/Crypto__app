@@ -9,6 +9,7 @@ const SelectDays = ({noText, days, handleChange}) => {
       <Select
         value={days}
         onChange={handleChange}
+        className='select__coin'
         sx={{
           height: "2.5rem",
           color: "var(--white)",

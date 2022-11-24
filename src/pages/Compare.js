@@ -253,7 +253,7 @@ const ComparePage = () => {
                 handleChange={handlePriceChange}
               />
 
-              <LineChart charData={chartData} options={options} />   
+              <LineChart chartData={chartData} options={options} />   
             </div>
             <div className="grey-container">
               <Info name={coinData1.name} desc={coinData1.desc} />

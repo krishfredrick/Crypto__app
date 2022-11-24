@@ -95,10 +95,22 @@ a {
   color: var(--white) !important;
 }
 
-.cmp__div-flex{
+.cmp__flex{
   display: flex;
   justify-content: flex-start;
   align-items: center;
   gap: 2rem;
   margin: 1rem 3rem;
+}
+.cmp__crypto-heading1{
+  display: none;
+}
+
+
+@media only screen and (max-width: 800px){
+  .cmp__flex{
+    gap: 0.5rem;
+    margin: 1rem 1rem;
+    justify-content: space-between;
+  }
 }

@@ -1,7 +1,9 @@
 .grid__box {
-  width: 255px;
+  width: 228px;
+  min-height: 260px;
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
   align-items: flex-start;
   gap: 1.25rem;
   background-color: var(--darkgrey);
@@ -57,6 +59,7 @@
   justify-content: flex-start;
   align-items: center;
   gap: 1rem;
+  
 }
 
 .grid__coin-chip {

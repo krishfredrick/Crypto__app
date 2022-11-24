@@ -1,5 +1,6 @@
 import { MenuItem, Select } from '@mui/material';
 import React from 'react';
+import './styles.scss'
 
 const SelectDays = ({noText, days, handleChange}) => {
   return (

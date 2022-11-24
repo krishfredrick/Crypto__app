@@ -1,5 +1,6 @@
 import { ToggleButton, ToggleButtonGroup } from "@mui/material";
 import React from 'react'
+import './styles.scss'
 
 const TogglePrice = ({priceType, handleChange}) => {
   return (

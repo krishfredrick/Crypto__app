@@ -7,6 +7,7 @@ import { motion } from "framer-motion";
 
 const Grid = ({ coin, delay}) => {
   return (
+    <a href={`/coin/${coin.id}`}>
     <motion.div
       initial={{ y: 60, opacity: 0}}
       whileInView={{y: 0, opacity: 1}}
@@ -59,6 +60,7 @@ const Grid = ({ coin, delay}) => {
         </p>
       </div>
     </motion.div>
+    </a>
   )
 }
 

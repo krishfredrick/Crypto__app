@@ -1,4 +1,4 @@
-import { MenuItem, Select } from '@mui/icons-material'
+import { MenuItem, Select } from '@mui/material'
 import React from 'react'
 
 const SelectCoin = ({ coin, handleChange, allCoins}) => {

@@ -12,7 +12,7 @@ const List = ({ coin , delay}) => {
     setVolume(convertNumbers(parseInt(coin.total_volume)));
   },[])
   return (
-    <tbody>
+    <a href={`/coin/${coin.id}`}>
     <motion.tr
     className="li__"
     initial={{x: -10, opacity: 0}}
@@ -68,7 +68,7 @@ const List = ({ coin , delay}) => {
       </td>
       
     </motion.tr>
-    </tbody>
+    </a>
   )
 }
 

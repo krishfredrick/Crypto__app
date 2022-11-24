@@ -7,6 +7,7 @@
     margin: 1rem 0;
     border-radius: 1rem;
     cursor: pointer;
+    
 
     &:hover{
         background-color: var(--darkgrey);
@@ -82,4 +83,8 @@
         margin: 0.5rem 0;
         gap: 0.1rem;
     }
+}
+
+tbody{
+    width: 100%;
 }

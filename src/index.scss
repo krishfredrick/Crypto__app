@@ -90,6 +90,15 @@ a {
   border-radius: 0.8rem;
 }
 
-// .dash__{
-//   height: 200vh;
-// }
+a {
+  text-decoration: none;
+  color: var(--white) !important;
+}
+
+.cmp__div-flex{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+  margin: 1rem 3rem;
+}

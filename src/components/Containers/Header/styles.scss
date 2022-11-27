@@ -67,6 +67,7 @@
     .drawer{
         width: 40vw;
         height: 100vh;
+        // margin: 2rem;
         padding: 1.5rem 1rem;
 
         background: var(--black);
@@ -79,6 +80,8 @@
         font-weight: 600;
         font-size: 0.8rem;
         cursor: pointer;
+        // margin: 0.7rem;
+        // padding:.8rem 1.7rem;
       }
       
     .drawer__link:hover {
@@ -122,5 +125,5 @@
 
 
 // .head__links a p{
-//     // background-color: ;
+//     background-color: linear-gradient(90deg,#923CB5,#000);
 // }

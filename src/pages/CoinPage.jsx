@@ -157,7 +157,7 @@ const CoinPage = () => {
       {loading ? (
         <Loading />
       ) : (
-        <>
+        <div className="bg__gradient">
           <div className="grey-container">
             <List coin={coin} delay={0.5} />
           </div>
@@ -172,7 +172,7 @@ const CoinPage = () => {
           <div className="grey-container">
             <Info name={coin.name} desc={coin.desc} />
           </div>
-        </>
+        </div>
       )}
     </div>
   );

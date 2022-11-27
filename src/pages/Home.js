@@ -7,7 +7,7 @@ function Home() {
   return (
     <div>
         <Header/>
-        <LandingIntro/>
+        <LandingIntro />
 
     </div>
   )

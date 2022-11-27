@@ -8,7 +8,7 @@ import Phone from "./Phone";
 
 const LandingIntro = () => {
   return (
-    <div className="Li__wrapper">
+    <div className="Li__wrapper bg__gradient">
       <div className="Li__info">
         <motion.h1
           className={"Li__heading-1"}

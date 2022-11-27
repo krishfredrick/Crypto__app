@@ -8,9 +8,11 @@
     text-transform: capitalize;
     font-size: 0.8rem;
     text-align: center;
-    color:var(--white);
+    // color:var(--white);
+    color:#555;
 
-    background-color: var(--blue);
+    // background-color: var(--blue);
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     cursor: pointer;
 
 }
@@ -47,6 +49,7 @@
 
 .btn__outlined:hover{
     box-shadow: 5px 5px 10px rgba(58, 128, 233, 0.5);
-    background-color: var(--blue);
+    // background-color: var(--blue);
+    background-image: linear-gradient(to right, #a1c4fd 0%, #c2e9fb 51%, #a1c4fd 100%);
     // transition: all 1s ease-in-out 2s;
 }

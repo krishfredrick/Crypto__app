@@ -240,7 +240,7 @@ const ComparePage = () => {
         loading ?(
           <Loading />
         ):(
-          <>
+          <div className="bg__gradient">
             <div className="grey-container">
               <List coin={coinData1}/>
             </div>
@@ -261,7 +261,7 @@ const ComparePage = () => {
             <div className="grey-container" style={{ marginBotton:'2rem'}}>
               <Info name={coinData2.name} desc={coinData2.desc} />
             </div>
-          </>
+          </div>
         )
       }
 

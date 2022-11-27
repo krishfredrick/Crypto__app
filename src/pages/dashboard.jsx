@@ -74,7 +74,7 @@ const DashboardPage = () => {
         loading ? (
           <Loading />
         ):(
-          <>
+          <div className='bg__gradient'>
           <Search search={search} setSearch={setSearch}/>
           <Tabs data={search ? filteredCoins : pageCoins} />
           <div onClick={()=> topFunction()} id='myBtn' className='top-btn'>
@@ -87,7 +87,7 @@ const DashboardPage = () => {
             handleChange={handleChange}
             />
           )}
-          </>
+          </div>
 
         )
       }

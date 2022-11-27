@@ -3,6 +3,7 @@ import Button from '../Button/'
 import MobileDrawer from './Drawer'
 
 import './styles.scss'
+import'./_button.scss'
 
 const Header = () => {
   return (
@@ -16,14 +17,14 @@ const Header = () => {
         </h1>
         <div className="head__links" >
             <a href="/">
-                <p className='head__link' >Home</p>
+                <p className='head__link box' >Home</p>
             </a>
             <a href="/compare">
-                <p className='head__link'>Compare</p>
+                <p className='head__link box'>Compare</p>
             </a>
             
             <a href="/dashboard">
-                <Button text='dashboard'/>
+                <Button text='dashboard '/>
             </a>
         </div>
         {/* <div className='head__drawer' style={{display:'none'}}> */}

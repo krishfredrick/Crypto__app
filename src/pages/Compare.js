@@ -218,14 +218,14 @@ const ComparePage = () => {
         <p className="cmp__crypto-heading1">Crypto 1</p>
         <SelectCoin 
           coin={coin1}
-          handleChange={(e)=>handleCoinChange(e)}
+          handleChange={(e)=>handleCoinChange(e, false)}
           allCoins={allCoins.filter((coin)=>coin.id != coin2)}
         />
         <p className="cmp__crypto-heading1">Crypto 2</p>
         <SelectCoin 
           coin={coin2}
-          handleChange={(e)=>handleCoinChange(e)}
-          allCoins={allCoins.filter((coin)=>coin.id != coin2)}
+          handleChange={(e)=>handleCoinChange(e,true)}
+          allCoins={allCoins.filter((coin)=>coin.id != coin1)}
         />
         <SelectDays
         noText={true} 

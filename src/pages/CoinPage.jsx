@@ -91,6 +91,7 @@ const CoinPage = () => {
     }
     if (prices) {
       setChartData({
+        
         labels: prices?.map((data) => getDate(data[0])),
         datasets: [
           {
@@ -102,6 +103,7 @@ const CoinPage = () => {
             backgroundColor: "transparent",
             borderColor: "#3a80e9",
             pointRadius: 0,
+            
           },
         ],
       });

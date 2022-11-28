@@ -51,6 +51,7 @@
         .head__link:hover{
             color: var(--white);
             transition: all 0.3s;
+            text-shadow: 4px 7px 8px rgba(0,0,0, 0.7);
         }
     }
     .head__drawer{
@@ -124,6 +125,6 @@
 // }
 
 
-// .head__links a p{
-//     background-color: linear-gradient(90deg,#923CB5,#000);
-// }
+.head__links a p{
+    color: linear-gradient(90deg,#923CB5,#000);
+}

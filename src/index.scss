@@ -117,4 +117,21 @@ a {
     margin: 1rem 1rem;
     justify-content: space-between;
   }
+
+  .top-btn{
+    right: 0.5rem;
+    bottom: 0.5rem;
+  }
+  .grey-contiainer{
+    background-color: var(--darkgey);
+    padding:0.5rem 0.5rem;
+    border-radius: 0.8rem;
+  }
+
+  .select__coin{
+    max-width: 120px !important;
+    font-size: 0.8rem !important;
+    padding: 0rem !important;
+    height: 35px !important;
+  }
 }

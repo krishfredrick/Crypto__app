@@ -18,6 +18,23 @@
   }
 }
 
+.bookmark-icon-div {
+  width: 2.5rem;
+  height: 2.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid var(--blue);
+  border-radius: 50%;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.bookmark-icon {
+  color: var(--blue);
+  /* font-size: 1rem !important; */
+}
+
 .grid__box-red:hover {
   transform: scale(1.05);
   border: 2px solid var(--red);
@@ -124,5 +141,14 @@
   .grid__coin-chip {
     min-width: 0px;
     padding: 0.25rem 0.5rem;
+  }
+  .bookmark-icon-div {
+    width: 1.5rem;
+    height: 1.5rem;
+    border-width: 1.75px;
+  }
+
+  .bookmark-icon {
+    font-size: 1rem !important;
   }
 }

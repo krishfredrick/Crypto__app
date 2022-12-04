@@ -178,6 +178,7 @@ const CoinPage = () => {
         </div>
       )}
       <Footer />
+      
     </div>
   );
 };

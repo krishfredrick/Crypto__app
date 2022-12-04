@@ -19,6 +19,9 @@ const MobileDrawer = () => {
           <a href="/">
             <p className=" drawer__link box">Home</p>
           </a>
+          <a href="/watchlist">
+            <p className=" drawer__link box">Watchlist</p>
+          </a>
           <a href="/compare">
             <p className="drawer__link box">Compare</p>
           </a>

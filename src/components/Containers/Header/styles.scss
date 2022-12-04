@@ -1,130 +1,116 @@
-@use 'button';
+@use "button";
 
-.head__nav{
-    padding: 0.75rem 1.5rem;
+.head__nav {
+  padding: 0.75rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  // width: 100%;
+  background-color: var(--black); //--> can change for theme
+  z-index: 100;
+  position: sticky;
+  top: 0;
+  background: linear-gradient(
+    60deg,
+    hsl(224, 85%, 66%),
+    hsl(269, 85%, 66%),
+    hsl(314, 85%, 66%),
+    hsl(359, 85%, 66%),
+    hsl(44, 85%, 66%),
+    hsl(89, 85%, 66%),
+    hsl(134, 85%, 66%),
+    hsl(179, 85%, 66%)
+  );
+  background-size: 300% 300%;
+  background-position: 0 50%;
+  // border-radius: calc(2 * var(--border-width));
+  animation: moveGradient 4s alternate infinite;
+
+  .head__heading {
+    font-size: 1.4rem;
+  }
+
+  .head__links {
     display: flex;
-    justify-content: space-between;
+    justify-content: flex-start;
+    gap: 1rem;
     align-items: center;
-    // width: 100%;
-    background-color: var(--black); //--> can change for theme
-    z-index: 100;
-    position: sticky;
-    top:0;
-    background: linear-gradient(
-      60deg,
-      hsl(224, 85%, 66%),
-      hsl(269, 85%, 66%),
-      hsl(314, 85%, 66%),
-      hsl(359, 85%, 66%),
-      hsl(44, 85%, 66%),
-      hsl(89, 85%, 66%),
-      hsl(134, 85%, 66%),
-      hsl(179, 85%, 66%)
-    );
-    background-size: 300% 300%;
-    background-position: 0 50%;
-    // border-radius: calc(2 * var(--border-width));
-    animation: moveGradient 4s alternate infinite;
-  
 
-
-    
-    .head__heading{
-        font-size:1.4rem;
+    .head__link {
+      color: #343754;
+      text-decoration: none !important;
+      font-weight: 600;
+      font-size: 0.8rem;
+      cursor: pointer;
+      transition: all 0.4s ease-out;
     }
 
-    .head__links{
-        display: flex;
-        justify-content: flex-start;
-        gap: 1rem;
-        align-items: center;
-
-        .head__link{
-            color:#343754;
-            text-decoration: none !important;
-            font-weight: 600;
-            font-size:0.8rem;
-            cursor: pointer;
-
-        }
-
-        .head__link:hover{
-            color: var(--white);
-            transition: all 0.3s;
-            text-shadow: 4px 7px 8px rgba(0,0,0, 0.7);
-        }
+    .head__link:hover {
+      color: var(--white);
+      transition: all 0.3s;
+      text-shadow: 4px 7px 8px rgba(0, 0, 0, 0.7);
     }
-    .head__drawer{
-        display: block;
-    }
-
+  }
+  .head__drawer {
+    display: block;
+  }
 }
 
-.drawer__div{
-    display: none;
-
-
+.drawer__div {
+  display: none;
 }
-    .drawer{
-        width: 40vw;
-        height: 100vh;
-        // margin: 2rem;
-        padding: 1.5rem 1rem;
+.drawer {
+  width: 40vw;
+  height: 100vh;
+  // margin: 2rem;
+  padding: 1.5rem 1rem;
 
-        background: var(--black);
-        color:var(--white);
-
-    }
-    .drawer__link {
-        color: var(--grey);
-        text-decoration: none !important;
-        font-weight: 600;
-        font-size: 0.8rem;
-        cursor: pointer;
-        // margin: 0.7rem;
-        // padding:.8rem 1.7rem;
-      }
-      
-    .drawer__link:hover {
-        color: var(--white);
-        transition: all 0.3s;
-    }
-
-    
-
-
-@media only screen and (max-width:800px) {
-    
+  background: var(--black);
+  color: var(--white);
+}
+.drawer__link {
+  color: var(--grey);
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 0.8rem;
+  cursor: pointer;
+  margin: 0.7rem 0;
+  // padding:.8rem 1.7rem;
 }
 
-@media only screen and (max-width:800px) {
-    .drawer__div{
-        display:block;
-    }
-
-    .head__nav {
-        .head__links{
-            display:none;
-        }
-        .head__heading{
-            font-size: 1rem;
-        }
-    }
+.drawer__link:hover {
+  color: var(--white);
+  transition: all 0.3s;
 }
 
+@media only screen and (max-width: 800px) {
+}
+
+@media only screen and (max-width: 800px) {
+  .drawer__div {
+    display: block;
+  }
+
+  .head__nav {
+    .head__links {
+      display: none;
+    }
+    .head__heading {
+      font-size: 1rem;
+    }
+  }
+}
 
 @keyframes moveGradient {
-    50% {
-      background-position: 100% 50%;
-    }
+  50% {
+    background-position: 100% 50%;
+  }
 }
-
 
 // .box{
 //     @include anime;
 // }
 
-
-.head__links a p{
-    color: linear-gradient(90deg,#923CB5,#000);
+.head__links a p {
+  color: linear-gradient(90deg, #923cb5, #000);
 }

@@ -19,6 +19,9 @@ const Header = () => {
             <a href="/">
                 <p className='head__link box' >Home</p>
             </a>
+            <a href="/watchlist">
+                <p className='head__link box' >WatchList</p>
+            </a>
             <a href="/compare">
                 <p className='head__link box'>Compare</p>
             </a>

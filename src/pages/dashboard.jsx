@@ -9,6 +9,7 @@ import Loading from '../components/Containers/Loading'
 import { DASHBOARD_API_URL } from "../constants.js";
 
 import PaginationComponent from '../components/Dashboard/PaginationComponent'
+import Footer from '../components/Containers/Footer';
 
 
 const DashboardPage = () => {
@@ -91,6 +92,7 @@ const DashboardPage = () => {
 
         )
       }
+      <Footer />
     </div>
   )
 }

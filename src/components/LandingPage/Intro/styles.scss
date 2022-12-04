@@ -5,6 +5,7 @@
     align-items: flex-start;
     min-height:92vh;
     height:auto;
+    height: fit-content;
 
     .Li__heading-1, .Li__heading-2{
         margin: 0;
@@ -43,6 +44,7 @@
     // height: 60%;
     display: block;
     margin-left: auto;
+    
 
     .phone__gradient{
         position: absolute;

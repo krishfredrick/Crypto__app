@@ -7,13 +7,14 @@ import ComparePage from "./pages/Compare";
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg__gradient">
         <BrowserRouter>
           <Routes>
             <Route  path='/' element={ <Home />  } />
             <Route  path='/dashboard' element={ <DashboardPage/>  } />
             <Route  path='/coin/:id' element={ <CoinPage/>  } />
             <Route  path='/compare' element={ <ComparePage/>  } />
+            {/* <Route  path='/watchlist' element={ <WatchListPage/>  } /> */}
 
           </Routes>
         </BrowserRouter>

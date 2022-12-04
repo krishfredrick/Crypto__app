@@ -4,11 +4,11 @@ import React from "react";
 import "./styles.scss";
 import Button from "../../Containers/Button";
 import Phone from "./Phone";
-
+import { RWebShare } from "react-web-share";
 
 const LandingIntro = () => {
   return (
-    <div className="Li__wrapper bg__gradient">
+    <div className="Li__wrapper ">
       <div className="Li__info">
         <motion.h1
           className={"Li__heading-1"}
@@ -44,10 +44,18 @@ const LandingIntro = () => {
           tranistion={{ duration: 1, delay: 0.75 }}
         >
           <a href="/dashboard">
-            <Button text='Dashboard'/>
+            <Button text="Dashboard" />
           </a>
-          <Button text='share' outlined={true} />
-
+          <RWebShare
+            data={{
+              text: "Crypto Dashboard made using React JS in 2022",
+              url: "https://crypto-appie.netlify.app/",
+              title: "Crypto Dashboard",
+            }}
+            onClick={() => console.log("shared successfully!")}
+          >
+            <Button text="share" outlined={true} />
+          </RWebShare>
         </motion.div>
       </div>
       <Phone />

@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from "react";
 import axios from "axios";
+import Footer from '../components/Containers/Footer'
 import LineChart from '../components/Coin/Chart'
 import Info from '../components/Coin/Info';
 import SelectCoin from '../components/Coin/SelectCoin'
@@ -264,7 +265,7 @@ const ComparePage = () => {
           </div>
         )
       }
-
+      <Footer />
     </> 
   );
 };

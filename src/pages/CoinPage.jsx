@@ -6,6 +6,7 @@ import Info from "../components/Coin/Info";
 import SelectDays from "../components/Coin/SelectDays";
 import TogglePrice from "../components/Coin/ToggleComponent";
 import Header from "../components/Containers/Header";
+import Footer from '../components/Containers/Footer'
 import Loading from "../components/Containers/Loading";
 import List from "../components/Dashboard/ListComponent";
 import {
@@ -176,6 +177,7 @@ const CoinPage = () => {
           </div>
         </div>
       )}
+      <Footer />
     </div>
   );
 };

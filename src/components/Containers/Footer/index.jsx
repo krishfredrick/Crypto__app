@@ -13,19 +13,19 @@ const Footer = () => {
         <h2>CrytoTracker.</h2>
       </a>
     <div className="footer__socials-flex">
-    <a href="/">
+    <a href="https://www.instagram.com/m.r_freak/">
           <FacebookIcon className="socials-icon" />
         </a>
-        <a href="/">
+        <a href="https://www.facebook.com/profile.php?id=100008248720667">
           <InstagramIcon className="socials-icon" />
         </a>
-        <a href="mailto:avivashishta@gmail.com">
+        <a href="mailto: krishfredrick11gmail.com">
           <EmailIcon className="socials-icon" />
         </a>
         <RWebShare
           data={{
             text: "Crypto Dashboard made using React JS in 2022",
-            url: "https://crypto-dashboard-nov.netlify.app/",
+            url: "https://crypto-appie.netlify.app/",
             title: "Crypto Dashboard",
           }}
           onClick={() => console.log("shared successfully!")}

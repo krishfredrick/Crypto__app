@@ -19,7 +19,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/m.r_freak/">
           <InstagramIcon className="socials-icon" />
         </a>
-        <a href="mailto: krishfredrick11gmail.com">
+        <a href="mailto:krishfredrick11gmail.com">
           <EmailIcon className="socials-icon" />
         </a>
         <RWebShare

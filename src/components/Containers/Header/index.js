@@ -11,7 +11,7 @@ const Header = () => {
       >
         <h1 className="head__heading">
             <a href="/" style={{color:'white'}}>
-            CryptoTracker<span style={{color:'var(--blue) '}}>.</span>
+            CryptoAppie<span style={{color:'var(--blue) '}}>.</span>
             </a>
                 
         </h1>
